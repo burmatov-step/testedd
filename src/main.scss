@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body {
+    position: relative;
+    overflow-x: hidden;
+  
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .container{
+      max-width: 1200px;
+      padding: 0 10px;
+      margin: 0 auto;
+  }
+
+
+.cart{
+    padding: 36px 0 77px;
+}
+
+.cart__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #45852D;
+    margin-bottom: 43px;
+}
+
+.cart__filter{
+    margin-bottom: 45px;
+    span{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: #363636;
+    margin-right: 8px;
+    }
+
+    input{
+    width: 418px;
+    height: 50px;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 25px;
+    }
+}
+
+.cart__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.cart__item{
+    max-width: 379px;
+    background: #F8F8F8;
+    border: 1px solid #D8D8D8;
+    margin-bottom: 38px;
+    width: 100%;
+    display: block;
+}
+
+.cart__item-img{
+    position: relative;
+    img{
+        width: 100%;
+        display: block;
+    }
+}
+
+.cart__item-smallText{
+    position: absolute;
+    background: #006F79;
+    color: #fff;
+    padding: 8px 11px 5px 10px;
+    width: max-content;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    color: #FFFFFF;
+}
+
+.cart__item-title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #363636;
+}
+
+.cart__item-adres{
+    font-size: 16px;
+    line-height: 22px;
+    color: #363636;
+    margin-bottom: 15px;
+}
+
+.cart__item-price{
+    font-size: 16px;
+    line-height: 22px;
+    color: #363636;
+    margin-bottom: 3px;
+
+    span{
+        font-weight: bold;
+    }
+}
+
+.cart__item-text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.cart__item-wrap{
+    
+    padding: 15px 20px 7px;
+}
+
+.cart__button{
+    border: 1px solid #D8D8D8;
+    border-radius: 25px;
+    width: 150px;
+    padding: 12px 0;
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
+}
