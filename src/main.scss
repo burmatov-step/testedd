@@ -41,6 +41,7 @@ html {
 
 .cart__filter{
     margin-bottom: 45px;
+
     span{
     font-weight: bold;
     font-size: 16px;
@@ -131,7 +132,6 @@ html {
 }
 
 .cart__item-wrap{
-    
     padding: 15px 20px 7px;
 }
 
@@ -143,4 +143,21 @@ html {
     background-color: transparent;
     margin: 0 auto;
     display: block;
+    font-weight: bold;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: #363636;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        top: 16px;
+        right: 22px;
+        background-image: url('images/chevron.svg');
+        width: 6.04px;
+        height: 19px;
+        background-repeat: no-repeat;
+    }
 }
